@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.51.23",
     "@tevm/ts-plugin": "2.0.0-next.103",
     "@tevm/vite-plugin": "2.0.0-next.103",
     "@twa-dev/sdk": "^6.7.1",

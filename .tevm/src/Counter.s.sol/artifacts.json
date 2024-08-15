@@ -1,0 +1,147 @@
+{
+  "solcInput": {
+    "language": "Solidity",
+    "sources": {
+      "/Users/williamcory/teletevm/src/Counter.s.sol": {
+        "content": "pragma solidity >=0.8.10;\n\ncontract Counter {\n    uint public count = 0;\n\n    // Function to increment count by 1\n    function inc() public {\n        count += 1;\n    }\n\n    // Function to decrement count by 1\n    function dec() public {\n        count -= 1;\n    }\n}\n"
+      }
+    },
+    "settings": {
+      "outputSelection": {
+        "*": {
+          "*": [
+            "abi",
+            "userdoc",
+            "evm.bytecode.object",
+            "evm.deployedBytecode.object"
+          ]
+        }
+      }
+    }
+  },
+  "solcOutput": {
+    "contracts": {
+      "/Users/williamcory/teletevm/src/Counter.s.sol": {
+        "Counter": {
+          "abi": [
+            {
+              "inputs": [],
+              "name": "count",
+              "outputs": [
+                {
+                  "internalType": "uint256",
+                  "name": "",
+                  "type": "uint256"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "dec",
+              "outputs": [],
+              "stateMutability": "nonpayable",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "inc",
+              "outputs": [],
+              "stateMutability": "nonpayable",
+              "type": "function"
+            }
+          ],
+          "evm": {
+            "bytecode": {
+              "object": "60806040525f80553480156011575f80fd5b506101a88061001f5f395ff3fe608060405234801561000f575f80fd5b506004361061003f575f3560e01c806306661abd14610043578063371303c014610061578063b3bcfa821461006b575b5f80fd5b61004b610075565b60405161005891906100c6565b60405180910390f35b61006961007a565b005b610073610094565b005b5f5481565b60015f8082825461008b919061010c565b92505081905550565b60015f808282546100a5919061013f565b92505081905550565b5f819050919050565b6100c0816100ae565b82525050565b5f6020820190506100d95f8301846100b7565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f610116826100ae565b9150610121836100ae565b9250828201905080821115610139576101386100df565b5b92915050565b5f610149826100ae565b9150610154836100ae565b925082820390508181111561016c5761016b6100df565b5b9291505056fea26469706673582212201b9836a1d9dec9eb62fdd6678fce753fff9fed0a45b32af48fa19f0ad586753e64736f6c634300081a0033"
+            },
+            "deployedBytecode": {
+              "object": "608060405234801561000f575f80fd5b506004361061003f575f3560e01c806306661abd14610043578063371303c014610061578063b3bcfa821461006b575b5f80fd5b61004b610075565b60405161005891906100c6565b60405180910390f35b61006961007a565b005b610073610094565b005b5f5481565b60015f8082825461008b919061010c565b92505081905550565b60015f808282546100a5919061013f565b92505081905550565b5f819050919050565b6100c0816100ae565b82525050565b5f6020820190506100d95f8301846100b7565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f610116826100ae565b9150610121836100ae565b9250828201905080821115610139576101386100df565b5b92915050565b5f610149826100ae565b9150610154836100ae565b925082820390508181111561016c5761016b6100df565b5b9291505056fea26469706673582212201b9836a1d9dec9eb62fdd6678fce753fff9fed0a45b32af48fa19f0ad586753e64736f6c634300081a0033"
+            }
+          },
+          "userdoc": {
+            "kind": "user",
+            "methods": {},
+            "version": 1
+          }
+        }
+      }
+    },
+    "errors": [
+      {
+        "component": "general",
+        "errorCode": "1878",
+        "formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> /Users/williamcory/teletevm/src/Counter.s.sol\n\n",
+        "message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
+        "severity": "warning",
+        "sourceLocation": {
+          "end": -1,
+          "file": "/Users/williamcory/teletevm/src/Counter.s.sol",
+          "start": -1
+        },
+        "type": "Warning"
+      }
+    ],
+    "sources": {
+      "/Users/williamcory/teletevm/src/Counter.s.sol": {
+        "id": 0
+      }
+    }
+  },
+  "artifacts": {
+    "Counter": {
+      "contractName": "Counter",
+      "abi": [
+        {
+          "inputs": [],
+          "name": "count",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "inputs": [],
+          "name": "dec",
+          "outputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "inputs": [],
+          "name": "inc",
+          "outputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function"
+        }
+      ],
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      },
+      "evm": {
+        "bytecode": {
+          "object": "60806040525f80553480156011575f80fd5b506101a88061001f5f395ff3fe608060405234801561000f575f80fd5b506004361061003f575f3560e01c806306661abd14610043578063371303c014610061578063b3bcfa821461006b575b5f80fd5b61004b610075565b60405161005891906100c6565b60405180910390f35b61006961007a565b005b610073610094565b005b5f5481565b60015f8082825461008b919061010c565b92505081905550565b60015f808282546100a5919061013f565b92505081905550565b5f819050919050565b6100c0816100ae565b82525050565b5f6020820190506100d95f8301846100b7565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f610116826100ae565b9150610121836100ae565b9250828201905080821115610139576101386100df565b5b92915050565b5f610149826100ae565b9150610154836100ae565b925082820390508181111561016c5761016b6100df565b5b9291505056fea26469706673582212201b9836a1d9dec9eb62fdd6678fce753fff9fed0a45b32af48fa19f0ad586753e64736f6c634300081a0033"
+        },
+        "deployedBytecode": {
+          "object": "608060405234801561000f575f80fd5b506004361061003f575f3560e01c806306661abd14610043578063371303c014610061578063b3bcfa821461006b575b5f80fd5b61004b610075565b60405161005891906100c6565b60405180910390f35b61006961007a565b005b610073610094565b005b5f5481565b60015f8082825461008b919061010c565b92505081905550565b60015f808282546100a5919061013f565b92505081905550565b5f819050919050565b6100c0816100ae565b82525050565b5f6020820190506100d95f8301846100b7565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f610116826100ae565b9150610121836100ae565b9250828201905080821115610139576101386100df565b5b92915050565b5f610149826100ae565b9150610154836100ae565b925082820390508181111561016c5761016b6100df565b5b9291505056fea26469706673582212201b9836a1d9dec9eb62fdd6678fce753fff9fed0a45b32af48fa19f0ad586753e64736f6c634300081a0033"
+        }
+      }
+    }
+  },
+  "modules": {
+    "/Users/williamcory/teletevm/src/Counter.s.sol": {
+      "id": "/Users/williamcory/teletevm/src/Counter.s.sol",
+      "rawCode": "pragma solidity ^0.8.10;\n\ncontract Counter {\n    uint public count = 0;\n\n    // Function to increment count by 1\n    function inc() public {\n        count += 1;\n    }\n\n    // Function to decrement count by 1\n    function dec() public {\n        count -= 1;\n    }\n}\n",
+      "importedIds": [],
+      "code": "pragma solidity >=0.8.10;\n\ncontract Counter {\n    uint public count = 0;\n\n    // Function to increment count by 1\n    function inc() public {\n        count += 1;\n    }\n\n    // Function to decrement count by 1\n    function dec() public {\n        count -= 1;\n    }\n}\n"
+    }
+  }
+}

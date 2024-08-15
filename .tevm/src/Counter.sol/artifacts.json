@@ -1,0 +1,129 @@
+{
+  "solcInput": {
+    "language": "Solidity",
+    "sources": {
+      "/Users/williamcory/teletevm/src/Counter.sol": {
+        "content": "pragma solidity >=0.8.10;\n\ncontract Counter {\n    uint public count = 0;\n\n    // Function to increment count by 1\n    function inc() public {\n        count += 1;\n    }\n\n    // Function to decrement count by 1\n    function dec() public {\n        count -= 1;\n    }\n}\n"
+      }
+    },
+    "settings": {
+      "outputSelection": {
+        "*": {
+          "*": [
+            "abi",
+            "userdoc"
+          ]
+        }
+      }
+    }
+  },
+  "solcOutput": {
+    "contracts": {
+      "/Users/williamcory/teletevm/src/Counter.sol": {
+        "Counter": {
+          "abi": [
+            {
+              "inputs": [],
+              "name": "count",
+              "outputs": [
+                {
+                  "internalType": "uint256",
+                  "name": "",
+                  "type": "uint256"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "dec",
+              "outputs": [],
+              "stateMutability": "nonpayable",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "inc",
+              "outputs": [],
+              "stateMutability": "nonpayable",
+              "type": "function"
+            }
+          ],
+          "userdoc": {
+            "kind": "user",
+            "methods": {},
+            "version": 1
+          }
+        }
+      }
+    },
+    "errors": [
+      {
+        "component": "general",
+        "errorCode": "1878",
+        "formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> /Users/williamcory/teletevm/src/Counter.sol\n\n",
+        "message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
+        "severity": "warning",
+        "sourceLocation": {
+          "end": -1,
+          "file": "/Users/williamcory/teletevm/src/Counter.sol",
+          "start": -1
+        },
+        "type": "Warning"
+      }
+    ],
+    "sources": {
+      "/Users/williamcory/teletevm/src/Counter.sol": {
+        "id": 0
+      }
+    }
+  },
+  "artifacts": {
+    "Counter": {
+      "contractName": "Counter",
+      "abi": [
+        {
+          "inputs": [],
+          "name": "count",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "inputs": [],
+          "name": "dec",
+          "outputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "inputs": [],
+          "name": "inc",
+          "outputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function"
+        }
+      ],
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    }
+  },
+  "modules": {
+    "/Users/williamcory/teletevm/src/Counter.sol": {
+      "id": "/Users/williamcory/teletevm/src/Counter.sol",
+      "rawCode": "pragma solidity ^0.8.10;\n\ncontract Counter {\n    uint public count = 0;\n\n    // Function to increment count by 1\n    function inc() public {\n        count += 1;\n    }\n\n    // Function to decrement count by 1\n    function dec() public {\n        count -= 1;\n    }\n}\n",
+      "importedIds": [],
+      "code": "pragma solidity >=0.8.10;\n\ncontract Counter {\n    uint public count = 0;\n\n    // Function to increment count by 1\n    function inc() public {\n        count += 1;\n    }\n\n    // Function to decrement count by 1\n    function dec() public {\n        count -= 1;\n    }\n}\n"
+    }
+  }
+}
